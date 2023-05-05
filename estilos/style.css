@@ -28,7 +28,7 @@ section#login {
     position: absolute;
     background-color: white;
     overflow: hidden;
-    width: 250px;
+    width: 260px;
     height: 500px;
     border-radius: 15px;
     left: 50%;
@@ -50,4 +50,13 @@ section#login > div#img {
 section#login > div#form {
     display: block;
     padding: 10px;
+}
+
+div#form > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#form > p {
+    font-size: 0.8em;
 }
